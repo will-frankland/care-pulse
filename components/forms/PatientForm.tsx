@@ -10,7 +10,7 @@ import CustomFormField from "../CustomFormField";
 export enum FormFieldType {
   INPUT = 'input',
   TEXTAREA = 'textarea',
-  PHONE = "phoneInput",
+  PHONE_INPUT = "phoneInput",
   CHECKBOX = "checkbox",
   DATE_PICKER = 'datePicker',
   SELECT = 'select',
@@ -62,6 +62,13 @@ const PatientForm = () => {
           placeholder="johndoe@care-pulse.com"
           iconSrc="/assets/icons/email.svg"
           iconAlt="email"
+        />
+        <CustomFormField
+          fieldType={FormFieldType.PHONE_INPUT}
+          control={form.control}
+          name="phone"
+          label="Phone number"
+          placeholder="(555) 123-4567"
         />
         <Button type="submit">Submit</Button>
       </form>
