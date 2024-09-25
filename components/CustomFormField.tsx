@@ -30,7 +30,7 @@ interface CustomProps {
   placeholder?: string;
   iconSrc?: string;
   iconAlt?: string;
-  disbaled?: boolean;
+  disabled?: boolean;
   dateFormat?: string;
   showTimeSelect?: boolean;
   children?: React.ReactNode;
