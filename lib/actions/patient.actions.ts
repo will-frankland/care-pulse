@@ -24,4 +24,4 @@ export const createUser = async (user: CreateUserParams) => {
       return existingUser?.users[0]
     }
   }
-}
+};
