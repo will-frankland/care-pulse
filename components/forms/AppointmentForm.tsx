@@ -61,8 +61,11 @@ const AppointmentForm = ({
         status = "pending";
         break;
     }
+
+    console.log('type', type)
     try {
       if (type === "create" && patientId) {
+        console.log('Here!')
         const appointmentData = {
           userId,
           patient: patientId,
@@ -73,6 +76,8 @@ const AppointmentForm = ({
           status: status as Status,
         };
         const appointment = await createAppointment(appointmentData);
+
+        console.log('appointment created', appointment)
 
         if (appointment) {
           form.reset();
