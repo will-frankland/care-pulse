@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About this app
 
-## Getting Started
+CarePulse is a mock medical site that allows patients to sign-up, enter medical and ID information and book appointments with their doctor/s. It also contains an admin panel protected by a passkey that allows admin users to visit a dashboard to schedule, cancel or edit requested appointments.
 
-First, run the development server:
+It was built using NextJs, TypeScript, TailwindCSS, Appwrite, ShadCN, and Sentry.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Sentry was installed to monitor for errors and bugs and will immediately send a report to the site administrator with full details of any occuring error including a video - the great thing about this is that all details are blocked out to comply with security and in this case hippocratic regulations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Appwrite was used for the database and storage of documents.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Functionality & Key Features
 
-## Learn More
+The site is fully adjustable for screen sizes ranging from mobile to desktop.
 
-To learn more about Next.js, take a look at the following resources:
+I followed a tutorial created by JavaScriptMastery to become more proficient with TypeScript and NextJs, learn more key principles and best practices in order to expand my portfolio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+CarePulse has been deployed on Vercel and can be viewed here:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+https://care-pulse-inky.vercel.app/admin
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- NextJs
+- TypeScript
+- TailwindCSS
+- ShadCN
+- Appwrite
+- HTML
+- CSS
+- Sentry
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots
+
+!["Screenshot of homepage"](assets/screenshots/carepulse-homepage.png)
+!["Screenshot of patient details page"](assets/screenshots/carepulse-details-page.png)
+!["Screenshot of patient appointment booking request"](assets/screenshots/new-apt-request.png)
+!["Screenshot of successful request submission"](assets/screenshots/request-submission.png)
+!["Screenshot of successful request submission"](assets/screenshots/request-submission.png)
+!["Screenshot of admin panel access password modal"](assets/screenshots/admin-panel-access-token.png)
+!["Screenshot of admin panel page"](assets/screenshots/admin-panel-home.png)
+!["Screenshot of admin panel access password modal"](assets/screenshots/admin-panel-access-token.png)
+!["Screenshot of appointment manager modal"](assets/screenshots/appointment-manager.png)
+!["Screenshot of Sentry example for error logging"](assets/screenshots/sentry-example-video.png)
+
+
+# Getting Started
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm  i`
+### `npm  run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
