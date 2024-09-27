@@ -4,7 +4,7 @@ CarePulse is a mock medical site that allows patients to sign-up, enter medical 
 
 It was built using NextJs, TypeScript, TailwindCSS, Appwrite, ShadCN, and Sentry.
 
-Sentry was installed to monitor for errors and bugs and will immediately send a report to the site administrator with full details of any occuring error including a video - the great thing about this is that all details are blocked out to comply with security and in this case hippocratic regulations.
+Sentry was installed to monitor for errors and bugs and will immediately send a report to the site administrator with full details of any occuring error including a video (see screenshot) - the great thing about this is that all details are blocked out to comply with security and in this case hippocratic regulations.
 
 Appwrite was used for the database and storage of documents.
 
@@ -32,16 +32,14 @@ https://care-pulse-inky.vercel.app/admin
 
 ## Screenshots
 
-!["Screenshot of homepage"](assets/screenshots/carepulse-homepage.png)
-!["Screenshot of patient details page"](assets/screenshots/carepulse-details-page.png)
-!["Screenshot of patient appointment booking request"](assets/screenshots/new-apt-request.png)
-!["Screenshot of successful request submission"](assets/screenshots/request-submission.png)
-!["Screenshot of successful request submission"](assets/screenshots/request-submission.png)
-!["Screenshot of admin panel access password modal"](assets/screenshots/admin-panel-access-token.png)
-!["Screenshot of admin panel page"](assets/screenshots/admin-panel-home.png)
-!["Screenshot of admin panel access password modal"](assets/screenshots/admin-panel-access-token.png)
-!["Screenshot of appointment manager modal"](assets/screenshots/appointment-manager.png)
-!["Screenshot of Sentry example for error logging"](assets/screenshots/sentry-example-video.png)
+!["Screenshot of homepage"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/carepulse-homepage.png?raw=true)
+!["Screenshot of patient details page"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/carepulse-details-page.png?raw=true)
+!["Screenshot of patient appointment booking request"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/new-apt-request.png?raw=true)
+!["Screenshot of successful request submission"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/request-submission.png?raw=true)
+!["Screenshot of admin panel access password modal"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/admin-panel-access-token.png?raw=true)
+!["Screenshot of admin panel page"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/admin-panel-home.png?raw=true)
+!["Screenshot of appointment manager modal"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/appointment-manager.png?raw=true)
+!["Screenshot of Sentry example for error logging"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/sentry-example-video.png?raw=true)
 
 
 # Getting Started
