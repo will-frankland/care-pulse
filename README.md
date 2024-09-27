@@ -32,13 +32,28 @@ https://care-pulse-inky.vercel.app/admin
 
 ## Screenshots
 
+### Screenshot of homepage
 !["Screenshot of homepage"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/carepulse-homepage.png?raw=true)
+
+### Screenshot of patient details page
 !["Screenshot of patient details page"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/carepulse-details-page.png?raw=true)
+
+### Screenshot of patient appointment booking request
 !["Screenshot of patient appointment booking request"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/new-apt-request.png?raw=true)
+
+### Screenshot of successful request submission
 !["Screenshot of successful request submission"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/request-submission.png?raw=true)
+
+### Screenshot of admin panel access password modal
 !["Screenshot of admin panel access password modal"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/admin-panel-access-token.png?raw=true)
+
+### Screenshot of admin panel page
 !["Screenshot of admin panel page"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/admin-panel-home.png?raw=true)
+
+### Screenshot of appointment manager modal
 !["Screenshot of appointment manager modal"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/appointment-manager.png?raw=true)
+
+### Screenshot of Sentry example for error logging
 !["Screenshot of Sentry example for error logging"](https://github.com/will-frankland/care-pulse/blob/main/public/screenshots/sentry-example-video.png?raw=true)
 
 
