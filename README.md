@@ -17,7 +17,9 @@ I followed a tutorial created by JavaScriptMastery to become more proficient wit
 
 CarePulse has been deployed on Vercel and can be viewed here:
 
-https://care-pulse-inky.vercel.app/admin
+https://care-pulse-inky.vercel.app/
+
+Admin password - 123456
 
 ## Tech Stack
 
